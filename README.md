@@ -10,12 +10,10 @@ Keeping track of challenges I have completed on my fork here.
 ##### 🚀 [Rocket Ship](https://github.com/alexgurr/react-coding-challenges/tree/master/rocket-ship) SOLVED :white_check_mark:
 Unnecessary re-renders, fine grained control.
 
-&nbsp;
 ### Medium 😐
 ##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode) INCOMPLETE :x:
 State / shared state, DOM manipulation.
 
-&nbsp;
 ### Hard 😬
 ##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify) INCOMPLETE :x:
 Loading state, API usage.
