@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ClassRocket, FunctionalRocket } from './Rocket';
+import { ClassRocket, FreezeClassRocket, FunctionalRocket, FreezeFunctionalRocket } from './Rocket';
 import '../styles/_launchpad.scss';
 
 export default function LaunchPad() {
@@ -10,8 +10,10 @@ export default function LaunchPad() {
   }, [])
   
   return (
+    // The element being returned can be swapped between its frozen or original version.
+    // Frozen version don't 'take off' per the challenge 
     <div className="launchpad">
-      <FunctionalRocket />
+      <FreezeFunctionalRocket />
     </div>
   );
 }
