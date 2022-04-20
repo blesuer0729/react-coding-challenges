@@ -12,13 +12,13 @@ Unnecessary re-renders, fine grained control.
 
 &nbsp;
 ### Medium 😐
-##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode) :x:
+##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode) INCOMPLETE :x:
 State / shared state, DOM manipulation.
 
 &nbsp;
 ### Hard 😬
-##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify) :x:
+##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify) INCOMPLETE :x:
 Loading state, API usage.
 
-##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter) :x:
+##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter) INCOMPLETE :x:
 Web sockets, events, callbacks & React hooks. Talks to [Botty](https://github.com/alexgurr/botty).
