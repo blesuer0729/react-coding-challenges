@@ -1,9 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import '../styles/_app.scss';
+import { ThemeContext } from '../../../common/containers/App';
 
 function App() {
+  const theme = React.useContext(ThemeContext);
+
+  function Icon() {
+    // use the global state to determine which icon is displayed on rerender
+    if (theme.state.darkMode) {
+      return (
+        <FontAwesomeIcon icon={faSun} color="#FFA500" />
+      );
+    } else {
+      return (
+        <FontAwesomeIcon icon={faMoon} />
+      )
+    }
+  }
+
   return (
     <div className="app">
       <div className="level">
@@ -11,11 +27,14 @@ function App() {
           <h1 className="title">Dark Mode Challenge</h1>
         </div>
 
-        {/* --The button that should toggle dark mode-- */}
-        <button className="app__dark-mode-btn icon level-right">
-          <FontAwesomeIcon icon={faMoon} />
+        {/* 
+        --The button that should toggle dark mode-- 
+        when the button is clicked update the global state
+        use the setTheme property that is passed down from the context provider
+        */}
+        <button className="app__dark-mode-btn icon level-right" onClick={() => { theme.setTheme({ darkMode: !theme.state.darkMode}) } }>
+          <Icon />
         </button>
-
       </div>
 
       <div className="columns">
