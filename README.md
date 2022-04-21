@@ -2,21 +2,21 @@
 
 See the [original repository](https://github.com/alexgurr/react-coding-challenges)
 
-Keeping track of challenges I have completed on my fork here.
+Keeping track of progress I have have made on each challenge as I learn React.
 
 &nbsp;
 ## The Challenges
 ### Easy 🙂
-##### 🚀 [Rocket Ship](https://github.com/alexgurr/react-coding-challenges/tree/master/rocket-ship) SOLVED :white_check_mark:
+##### 🚀 [Rocket Ship](https://github.com/alexgurr/react-coding-challenges/tree/master/rocket-ship) :white_check_mark:
 Unnecessary re-renders, fine grained control.
 
 ### Medium 😐
-##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode) INCOMPLETE :x:
+##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode) :white_check_mark:
 State / shared state, DOM manipulation.
 
 ### Hard 😬
-##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify) INCOMPLETE :x:
+##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify) :x:
 Loading state, API usage.
 
-##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter) INCOMPLETE :x:
+##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter):x:
 Web sockets, events, callbacks & React hooks. Talks to [Botty](https://github.com/alexgurr/botty).
